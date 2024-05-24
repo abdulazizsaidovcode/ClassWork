@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -102,4 +103,14 @@
 
 .coffe__type h1:nth-child(1) {
   color: #A9ACB0;
+=======
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none !important;
+>>>>>>> 531472caafa5b3e34c7db6880019d9e0a3b8d585
 }/*# sourceMappingURL=main.css.map */
