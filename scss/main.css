@@ -6,4 +6,72 @@
   box-sizing: border-box;
   font-family: sans-serif;
   list-style-type: none !important;
+}
+
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contect__neme__text {
+  width: 1518px;
+  height: 800px;
+  background-size: cover;
+  color: aliceblue;
+  padding: 70px 25px;
+  background-image: url("https://s3-alpha-sig.figma.com/img/d03d/3e12/918c58cec7ea37f8c8e6baa99455fb4a?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dL9RHdnaiiM1AIothv1kv-bweX6aZ2SQV-01i00V6t5hIZQIYQo1CW43DEczzPxcl1uaiwbTZkoV96iR-ySfy-6GYqjJ57R7HyQxsV7SBlr3-tke2qqUnr3DP2ixUhxfe3bOcVTZdueFUeRK3VZLplNBIyLkZxyJZOEZvMq3Lx7ZIJ0BlD6Uwmmkv97DRnJWRsrexKY5rrRgbUEjBgLUB7KDlL1P58soBKve~5dY3zMJB0ugF7feopdtq5CVbZ9c9OC4ryMtBjntot1wdtMl~Cv8k5jpT5tC2rAVaEv2EBob4vnhGq7eV5VGiUz-tlYu2Jl~j9mFLofrQOZl42WSOw__");
+}
+.contect__neme__text h1 {
+  font-family: Fraunces 9pt;
+  font-size: 72px;
+  margin: 12%;
+}
+.contect__neme__text p {
+  font-family: Barlow;
+  font-size: 16px;
+  width: 450px;
+  font-size: 17px;
+  margin-left: 8%;
+  margin-top: -7%;
+}
+
+.contect__text__neme__contein {
+  width: 1518px;
+  height: 800px;
+  margin-top: 10%;
+  background-image: url("https://s3-alpha-sig.figma.com/img/ab2a/abc9/3291d6903ab782bc6770eedb410243b9?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TYZtaiDirv27Ie-8BAY55TW-MbtTzIlna5JZZLU1j0kVy~Ag3FmVAF4IlaBbB8fDT4~qks8mSYZyRZ5p7EwCA5m-iuC~0Mj7fdy1BePBpK~XdogVXGbruXPJlWhk0P7odkZOQvZcnOkUPff9ep380KL3yVla6vHtimaPOlgSIQRnGK1mGinmEGRmsHaL8FWQwii~E5iBaQLrAGrLNcx0NILgxZqjFtj~gosolN0IQviwgqey5o0XmCOJ29Erdl3VERNBrNBO95lZWufXyrFY3EsiG9uLYhiH1VGoxMLdDKm0vdtSphCoPnn75AIPLJ6Z98mgwnKNHcZFxVwTNA-Jtw__");
+}
+
+.contect__text__neme__contein__text {
+  width: 500px;
+  height: 3px;
+  margin-top: -40%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+.contect__text__neme__contein__text .contect__text__neme__contein__text__neme {
+  width: 30px;
+  height: 30px;
+  margin-top: -3%;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
+
+.contect__text__neme__contein__text__neme--text {
+  display: flex;
+  gap: 10%;
+  margin-top: 5%;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.contect__text__neme__contein__text__neme--text .contect__text__neme__contein__text--text {
+  display: grid;
+}
+.contect__text__neme__contein__text__neme--text h5 {
+  display: grid;
+  display: block;
 }/*# sourceMappingURL=main.css.map */
