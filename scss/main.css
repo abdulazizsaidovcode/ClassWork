@@ -1,11 +1,119 @@
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
   list-style-type: none !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.coffe__select {
+  width: 100%;
+  height: 80vh;
+  background-color: #293039;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 150px;
+}
+
+.coffe__select h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.coffe__select p {
+  font-family: sans-serif;
+  color: #BEBFBE;
+  text-align: center;
+  font-size: 14px;
+}
+
+.coffe__select .coffe.select--card {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.coffe__select .coffe.select--card .card {
+  width: 250px;
+  height: 290px;
+  background-color: #0E8784;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.coffe__select .coffe.select--card .card p {
+  font-size: 12px;
+  margin: 0 32px;
+}
+
+.coffe__type {
+  width: 70%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 400px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 50px;
+  justify-content: center;
+}
+
+.coffe__type .types {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coffe__type .types .type {
+  width: 200px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.coffe__type .types .type h1 {
+  color: #FDD6B9;
+  font-size: 4rem;
+}
+
+.coffe__type .types .type h2 {
+  color: #333D4B;
+  font-size: 30px;
+}
+
+.coffe__type .types .type p {
+  color: #404956;
+  font-size: 12px;
+}
+
+.coffe__type button {
+  padding: 12px 2rem;
+  color: white;
+  background-color: #0E8784;
+  border: none;
+  border-radius: 5px;
+}
+
+.coffe__type h1:nth-child(1) {
+  color: #A9ACB0;
+
 }
 
 *::before,
@@ -23,11 +131,13 @@
   padding: 70px 25px;
   background-image: url("https://s3-alpha-sig.figma.com/img/d03d/3e12/918c58cec7ea37f8c8e6baa99455fb4a?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dL9RHdnaiiM1AIothv1kv-bweX6aZ2SQV-01i00V6t5hIZQIYQo1CW43DEczzPxcl1uaiwbTZkoV96iR-ySfy-6GYqjJ57R7HyQxsV7SBlr3-tke2qqUnr3DP2ixUhxfe3bOcVTZdueFUeRK3VZLplNBIyLkZxyJZOEZvMq3Lx7ZIJ0BlD6Uwmmkv97DRnJWRsrexKY5rrRgbUEjBgLUB7KDlL1P58soBKve~5dY3zMJB0ugF7feopdtq5CVbZ9c9OC4ryMtBjntot1wdtMl~Cv8k5jpT5tC2rAVaEv2EBob4vnhGq7eV5VGiUz-tlYu2Jl~j9mFLofrQOZl42WSOw__");
 }
+
 .contect__neme__text h1 {
   font-family: Fraunces 9pt;
   font-size: 72px;
   margin: 12%;
 }
+
 .contect__neme__text p {
   font-family: Barlow;
   font-size: 16px;
@@ -53,6 +163,7 @@
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
 }
+
 .contect__text__neme__contein__text .contect__text__neme__contein__text__neme {
   width: 30px;
   height: 30px;
@@ -68,10 +179,15 @@
   font-size: 30px;
   font-weight: bolder;
 }
+
 .contect__text__neme__contein__text__neme--text .contect__text__neme__contein__text--text {
   display: grid;
 }
+
 .contect__text__neme__contein__text__neme--text h5 {
   display: grid;
   display: block;
-}/*# sourceMappingURL=main.css.map */
+
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -3,8 +3,25 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/scss/main.css")
         title Document
-        link(rel="stylesheet", href="../css/main.css")
-        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css")
-    body
-        p salom
+    body 
+        section.coffe__select 
+            h1 Why choose us?
+            p A large part of our role is choosing which particular coffees will be featured <br>in our range. This means working closely with the best coffee growers to give <br>you a more impactful experience on every level.
+            .coffe.select--card 
+                each card in [1,1,1]
+                    .card
+                        img(src="/img/Shape.png", alt="")
+                        h3 Best quality
+                        p Discover an endless variety of the world’s best artisan coffee from each of our roasters.
+        section.coffe__type 
+            h1 How it works
+            img(src="/img/Path 2.png", alt="")
+            .types 
+                each type in [1,1,1]
+                    .type  
+                        h1 01
+                        h2 Pick your coffee
+                        p Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
+            button Create your plan
