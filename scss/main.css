@@ -5,6 +5,110 @@
   list-style-type: none !important;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.figma {
+  height: 250px;
+  line-height: 5%;
+  width: -350px;
+  margin-top: 5%;
+  background-color: cadetblue;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.fimga {
+  display: flex;
+  padding: 100px;
+  margin-left: 100px;
+}
+
+.figma_1 {
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+}
+
+p {
+  font-family: sans-serif;
+  opacity: 0.5;
+  line-height: 30px;
+}
+
+h1 {
+  font-family: sans-serif;
+  line-height: 30px;
+}
+
+.span {
+  margin-left: 50px;
+  padding: 25px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__amir {
+  padding: 100px 0;
+  background-size: cover;
+  background-image: url("https://s3-alpha-sig.figma.com/img/860c/8df1/23844131ed36b3306e3664755d89e7b2?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TBz-FBxfDIsjmwx4yEdLlbyh2FqQvsuGFPd6s7aNGhBPxI-16IGzFvBwGRNzLX5ioaXhOcye~p0AKv5~xTMu7cfLGXc1fgLLs3jA70-F-j9yV4K9ijs1SC1QZ9yZoAZqI2XkuP3fUSKZrPK42ZHaJQSvwB0sHd0b9maCs7KV917WJ1JODTSdCKHm0zZkzmKYB6xnWhnuOFSyqIR3IbNxlqfA~aQ2nL8UJ5wpCk1DJFc-H-JWSlvZdzrLo9eIGIfOVa9uBLnbgjGzQMv6lGrWTXtOuy1qo447tdb3DOfgPx5UAU2PBIPVXCt~rKTSzuo4Zfv7wrUWKNMFkjpEaqBwjQ__");
+  width: 1500px;
+  height: 700px;
+}
+.section__amir div {
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+  margin: 30px 50px;
+}
+.section__amir div h1 {
+  width: 493px;
+  height: 145px;
+  font-size: 72px;
+}
+.section__amir div p {
+  width: 445px;
+  height: 78px;
+  font-size: 16px;
+  margin: 30px 0;
+}
+.section__amir div button {
+  width: 217px;
+  height: 56px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 15px;
+}
+
+.section__amir--2 {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.section__amir--2 div img {
+  height: 193px;
+  width: 255px;
+}
+.section__amir--2 div h1 {
+  width: 255px;
+  height: 32px;
+  font-size: 24px;
+  color: #333D4B;
+  text-align: center;
+}
+.section__amir--2 div p {
+  width: 255px;
+  height: 78px;
+  text-align: center;
+}
+
 *::before,
 *::after {
   margin: 0;
@@ -71,16 +175,19 @@
 .contect__text__neme__contein__text__neme--text h5 {
   display: grid;
   display: block;
+  color: black;
 }
 .contect__text__neme__contein__text__neme--text p {
   font-family: Barlow;
   font-size: 16px;
   font-weight: 400;
+  color: black;
 }
 .contect__text__neme__contein__text__neme--text .contect__text__neme__contein__text--text__neme {
   margin-left: -20%;
   margin-top: 5%;
   padding: 25px 20px;
+  color: black;
 }
 
 ::-webkit-scrollbar {
