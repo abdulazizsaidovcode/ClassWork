@@ -3,7 +3,55 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/scss/main.css")
         title Document
+<<<<<<< HEAD
         link(rel="stylesheet", href="../../scss/main.css")
     body
         include ./about.pug
+=======
+    body 
+        section.section__amir 
+            div 
+                h1 Great coffee made simple 
+                p Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.
+                button Create your plan 
+        section.section__amir--2 
+            div 
+                img(src="https://s3-alpha-sig.figma.com/img/367a/815c/c8368061f71a199333ab2584c43c7e59?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MUOy-0tmSkvsY6GlI4WCMS-fRTRYFrlV72r2eHdjXzlLILg8TrHF~IbF~fe91d8rl0nN7wL7AffvQrKCLuw~wyCdCtc8DuHEqA8jTG92wofOEhuwF3R9Zwud1--lPBaIKsw11gfT8lLRhySx0aYri81~CvrDoIzlU6x0PjB276i7Oxi8rV6nSLVXtKXFilNMjz7y-xX5J0hMjYanWaY7Q-yTCEM8jjGl~q8i9B7pVKACQVRHu~u9gA~h-To~30pTu36djHbdRBwS1fKu5MthntoYBMm24AQteRXtgyxpcs1tXZVvUjfKLWh5anYftcdTaxP0cQphAl-dO9knpSR1Bg__", alt="")
+                h1 Gran Epresso
+                p Light and flavorful blend with cocoa and black pepper for an intense experience.
+            div 
+                img(src="https://s3-alpha-sig.figma.com/img/367a/815c/c8368061f71a199333ab2584c43c7e59?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MUOy-0tmSkvsY6GlI4WCMS-fRTRYFrlV72r2eHdjXzlLILg8TrHF~IbF~fe91d8rl0nN7wL7AffvQrKCLuw~wyCdCtc8DuHEqA8jTG92wofOEhuwF3R9Zwud1--lPBaIKsw11gfT8lLRhySx0aYri81~CvrDoIzlU6x0PjB276i7Oxi8rV6nSLVXtKXFilNMjz7y-xX5J0hMjYanWaY7Q-yTCEM8jjGl~q8i9B7pVKACQVRHu~u9gA~h-To~30pTu36djHbdRBwS1fKu5MthntoYBMm24AQteRXtgyxpcs1tXZVvUjfKLWh5anYftcdTaxP0cQphAl-dO9knpSR1Bg__", alt="")
+                h1 Gran Epresso
+                p Light and flavorful blend with cocoa and black pepper for an intense experience.
+            div 
+                img(src="https://s3-alpha-sig.figma.com/img/367a/815c/c8368061f71a199333ab2584c43c7e59?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MUOy-0tmSkvsY6GlI4WCMS-fRTRYFrlV72r2eHdjXzlLILg8TrHF~IbF~fe91d8rl0nN7wL7AffvQrKCLuw~wyCdCtc8DuHEqA8jTG92wofOEhuwF3R9Zwud1--lPBaIKsw11gfT8lLRhySx0aYri81~CvrDoIzlU6x0PjB276i7Oxi8rV6nSLVXtKXFilNMjz7y-xX5J0hMjYanWaY7Q-yTCEM8jjGl~q8i9B7pVKACQVRHu~u9gA~h-To~30pTu36djHbdRBwS1fKu5MthntoYBMm24AQteRXtgyxpcs1tXZVvUjfKLWh5anYftcdTaxP0cQphAl-dO9knpSR1Bg__", alt="")
+                h1 Gran Epresso
+                p Light and flavorful blend with cocoa and black pepper for an intense experience.
+            div 
+                img(src="https://s3-alpha-sig.figma.com/img/367a/815c/c8368061f71a199333ab2584c43c7e59?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MUOy-0tmSkvsY6GlI4WCMS-fRTRYFrlV72r2eHdjXzlLILg8TrHF~IbF~fe91d8rl0nN7wL7AffvQrKCLuw~wyCdCtc8DuHEqA8jTG92wofOEhuwF3R9Zwud1--lPBaIKsw11gfT8lLRhySx0aYri81~CvrDoIzlU6x0PjB276i7Oxi8rV6nSLVXtKXFilNMjz7y-xX5J0hMjYanWaY7Q-yTCEM8jjGl~q8i9B7pVKACQVRHu~u9gA~h-To~30pTu36djHbdRBwS1fKu5MthntoYBMm24AQteRXtgyxpcs1tXZVvUjfKLWh5anYftcdTaxP0cQphAl-dO9knpSR1Bg__", alt="")
+                h1 Gran Epresso
+                p Light and flavorful blend with cocoa and black pepper for an intense experience.
+
+        //- sardor jonniki
+        section.coffe__select 
+            h1 Why choose us?
+            p A large part of our role is choosing which particular coffees will be featured <br>in our range. This means working closely with the best coffee growers to give <br>you a more impactful experience on every level.
+            .coffe.select--card 
+                each card in [1,1,1]
+                    .card
+                        img(src="/img/Shape.png", alt="")
+                        h3 Best quality
+                        p Discover an endless variety of the world’s best artisan coffee from each of our roasters.
+        section.coffe__type 
+            h1 How it works
+            img(src="/img/Path 2.png", alt="")
+            .types 
+                each type in [1,1,1]
+                    .type  
+                        h1 01
+                        h2 Pick your coffee
+                        p Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
+            button Create your plan
+>>>>>>> 1974591b995040b47e5865c2cb59161cd915b7e8

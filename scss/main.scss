@@ -5,6 +5,107 @@
 @import "all-blocks/all-blocks";
 @import "pages/allpages";
 
+::-webkit-scrollbar {
+    display: none;
+}
 
+.coffe__select {
+    width: 100%;
+    height: 80vh;
+    background-color: #293039;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 150px;
 
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
 
+    p {
+        font-family: sans-serif;
+        color: #BEBFBE;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .coffe.select--card {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+
+        .card {
+            width: 250px;
+            height: 290px;
+            background-color: #0E8784;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+            p {
+                font-size: 12px;
+                margin: 0 32px;
+            }
+        }
+    }
+}
+
+.coffe__type {
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 400px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+    justify-content: center;
+
+    .types {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        justify-content: space-between;
+        .type {
+            width: 200px;
+            height: 260px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+            h1 {
+                color: #FDD6B9;
+                font-size: 4rem;
+            }
+
+            h2 {
+                color: #333D4B;
+                font-size: 30px;
+            }
+
+            p {
+                color: #404956;
+                font-size: 12px;
+            }
+        }
+    }
+    button {
+        padding: 12px 2rem;
+        color: white;
+        background-color: #0E8784;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+.coffe__type h1:nth-child(1) {
+    color: #A9ACB0;
+}
