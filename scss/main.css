@@ -4,13 +4,6 @@
   box-sizing: border-box;
   list-style-type: none !important;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .figma {
   height: 250px;
   line-height: 5%;
@@ -33,28 +26,6 @@
   margin: 50px;
 }
 
-p {
-  font-family: sans-serif;
-  opacity: 0.5;
-  line-height: 30px;
-}
-
-h1 {
-  font-family: sans-serif;
-  line-height: 30px;
-}
-
-.span {
-  margin-left: 50px;
-  padding: 25px;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .section__amir {
   padding: 100px 0;
   background-size: cover;
@@ -62,23 +33,27 @@ h1 {
   width: 1500px;
   height: 700px;
 }
+
 .section__amir div {
   width: 90%;
   margin: 0 auto;
   color: white;
   margin: 30px 50px;
 }
+
 .section__amir div h1 {
   width: 493px;
   height: 145px;
   font-size: 72px;
 }
+
 .section__amir div p {
   width: 445px;
   height: 78px;
   font-size: 16px;
   margin: 30px 0;
 }
+
 .section__amir div button {
   width: 217px;
   height: 56px;
@@ -92,10 +67,12 @@ h1 {
   justify-content: center;
   padding: 50px 0;
 }
+
 .section__amir--2 div img {
   height: 193px;
   width: 255px;
 }
+
 .section__amir--2 div h1 {
   width: 255px;
   height: 32px;
@@ -103,18 +80,14 @@ h1 {
   color: #333D4B;
   text-align: center;
 }
+
 .section__amir--2 div p {
   width: 255px;
   height: 78px;
   text-align: center;
 }
 
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 .contect__neme__text {
   width: 1518px;
@@ -124,11 +97,13 @@ h1 {
   padding: 70px 25px;
   background-image: url("https://s3-alpha-sig.figma.com/img/d03d/3e12/918c58cec7ea37f8c8e6baa99455fb4a?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dL9RHdnaiiM1AIothv1kv-bweX6aZ2SQV-01i00V6t5hIZQIYQo1CW43DEczzPxcl1uaiwbTZkoV96iR-ySfy-6GYqjJ57R7HyQxsV7SBlr3-tke2qqUnr3DP2ixUhxfe3bOcVTZdueFUeRK3VZLplNBIyLkZxyJZOEZvMq3Lx7ZIJ0BlD6Uwmmkv97DRnJWRsrexKY5rrRgbUEjBgLUB7KDlL1P58soBKve~5dY3zMJB0ugF7feopdtq5CVbZ9c9OC4ryMtBjntot1wdtMl~Cv8k5jpT5tC2rAVaEv2EBob4vnhGq7eV5VGiUz-tlYu2Jl~j9mFLofrQOZl42WSOw__");
 }
+
 .contect__neme__text h1 {
   font-family: Fraunces 9pt;
   font-size: 72px;
   margin: 12%;
 }
+
 .contect__neme__text p {
   font-family: Barlow;
   font-size: 16px;
@@ -154,6 +129,7 @@ h1 {
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
 }
+
 .contect__text__neme__contein__text .contect__text__neme__contein__text__neme {
   width: 30px;
   height: 30px;
@@ -169,20 +145,24 @@ h1 {
   font-size: 30px;
   font-weight: bolder;
 }
+
 .contect__text__neme__contein__text__neme--text .contect__text__neme__contein__text--text {
   display: grid;
 }
+
 .contect__text__neme__contein__text__neme--text h5 {
   display: grid;
   display: block;
   color: black;
 }
+
 .contect__text__neme__contein__text__neme--text p {
   font-family: Barlow;
   font-size: 16px;
   font-weight: 400;
   color: black;
 }
+
 .contect__text__neme__contein__text__neme--text .contect__text__neme__contein__text--text__neme {
   margin-left: -20%;
   margin-top: 5%;
@@ -204,14 +184,19 @@ h1 {
   gap: 30px;
   padding-top: 150px;
 }
+
 .coffe__select h1 {
   font-size: 2.5rem;
   text-align: center;
 }
+
 .coffe__select p {
   font-family: sans-serif;
-<<<<<<< HEAD
+
   list-style-type: none !important;
+
+ list-style-type: none !important;
+
 }
 
 .container {
@@ -225,6 +210,7 @@ h1 {
   background-color: #e1e1e1;
   display: flex;
 }
+
 .stn .stn__div {
   width: 30%;
   height: 100%;
@@ -233,6 +219,7 @@ h1 {
   align-items: center;
   gap: 20px;
 }
+
 .stn .stn__div .stn__div--box {
   width: 80%;
   height: 70px;
@@ -240,11 +227,13 @@ h1 {
   display: flex;
   align-items: end;
 }
+
 .stn .stn__div .stn__div--box .stn__div--box__h1 {
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #83888F;
 }
+
 .stn .stn__div .stn__div--box .stn__div--box__h1 .stn__div--box__h1 > span {
   color: #333D4B;
 }
@@ -254,6 +243,21 @@ h1 {
 .stn .stn__div .b2 {
   background-color: #bdbdbd;
 }
+
+
+.stn .stn__div .stn__div--box .stn__div--box__h1 .stn__div--box__h1>span {
+  color: #333D4B;
+}
+
+.stn .stn__div .stn__div--box .span {
+  color: #333D4B;
+}
+
+.stn .stn__div .b2 {
+  background-color: #bdbdbd;
+}
+
+
 .stn .stn__div2 {
   width: 70%;
   height: 100%;
@@ -263,6 +267,7 @@ h1 {
   align-items: center;
   gap: 10px;
 }
+
 .stn .stn__div2 .stn__div2--box {
   width: 90%;
   height: 30%;
@@ -272,6 +277,7 @@ h1 {
   flex-direction: column;
   gap: 20px;
 }
+
 .stn .stn__div2 .stn__div2--box .stn__div2--box__box {
   width: 90%;
   height: 35%;
@@ -280,17 +286,20 @@ h1 {
   align-items: center;
   gap: 50px;
 }
+
 .stn .stn__div2 .stn__div2--box .stn__div2--box__box .stn__div2--box--h1 {
   font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #83888F;
 }
+
 .stn .stn__div2 .stn__div2--box .stn__div2--box__box .stn__div2--box__box--img {
   width: 30px;
   height: 30px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
+
 .stn .stn__div2 .stn__div2--box .stn__div2--box__box2 {
   width: 90%;
   height: 300px;
@@ -347,12 +356,13 @@ h1 {
   width: 20px;
   height: 20px;
   -o-object-fit: contain;
-     object-fit: contain;
-=======
+
+  object-fit: contain;
   color: #BEBFBE;
   text-align: center;
   font-size: 14px;
 }
+
 .coffe__select .coffe.select--card {
   width: 100%;
   height: -moz-max-content;
@@ -362,6 +372,7 @@ h1 {
   gap: 30px;
   align-items: center;
 }
+
 .coffe__select .coffe.select--card .card {
   width: 250px;
   height: 290px;
@@ -373,6 +384,7 @@ h1 {
   justify-content: center;
   gap: 20px;
 }
+
 .coffe__select .coffe.select--card .card p {
   font-size: 12px;
   margin: 0 32px;
@@ -389,6 +401,7 @@ h1 {
   gap: 50px;
   justify-content: center;
 }
+
 .coffe__type .types {
   width: 100%;
   height: -moz-max-content;
@@ -396,6 +409,7 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+
 .coffe__type .types .type {
   width: 200px;
   height: 260px;
@@ -404,18 +418,22 @@ h1 {
   align-items: start;
   justify-content: space-between;
 }
+
 .coffe__type .types .type h1 {
   color: #FDD6B9;
   font-size: 4rem;
 }
+
 .coffe__type .types .type h2 {
   color: #333D4B;
   font-size: 30px;
 }
+
 .coffe__type .types .type p {
   color: #404956;
   font-size: 12px;
 }
+
 .coffe__type button {
   padding: 12px 2rem;
   color: white;
@@ -426,5 +444,8 @@ h1 {
 
 .coffe__type h1:nth-child(1) {
   color: #A9ACB0;
->>>>>>> 1974591b995040b47e5865c2cb59161cd915b7e8
-}/*# sourceMappingURL=main.css.map */
+
+
+}
+
+
