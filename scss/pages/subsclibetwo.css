@@ -7,10 +7,9 @@
 
 .article-page1 {
   padding: 20px;
-
-  img {
-    width: 80%;
-  }
+}
+.article-page1 img {
+  width: 80%;
 }
 
 .article-page2 {
@@ -30,23 +29,21 @@
   height: 250px;
   border-radius: 10px;
   background-color: #F4F1EB;
-
-  h3 {
-    width: 172px;
-    font-family: Fraunces 9pt;
-    font-weight: 900;
-    padding: 20px;
-    font-size: 24px;
-    color: #333D4B;
-  }
-
-  p {
-    width: 172px;
-    padding: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    font-family: "Barlow",sans-serif;
-  }
+}
+.article-text h3 {
+  width: 172px;
+  font-family: Fraunces 9pt;
+  font-weight: 900;
+  padding: 20px;
+  font-size: 24px;
+  color: #333D4B;
+}
+.article-text p {
+  width: 172px;
+  padding: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Barlow", sans-serif;
 }
 
 @media (max-width: 992px) {
@@ -55,24 +52,21 @@
     width: 90%;
   }
 }
-
 @media (max-width: 768px) {
   .article-container {
     margin: 0 auto;
     width: 95%;
   }
 }
-
 @media (max-width: 678px) {
   .article-container {
     margin: 0 auto;
     width: 100%;
   }
 }
-
 @media (max-width: 512px) {
   .article-container {
     margin: 0 auto;
     width: 100%;
   }
-}
+}/*# sourceMappingURL=subsclibetwo.css.map */
