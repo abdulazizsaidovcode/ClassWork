@@ -9,14 +9,23 @@ html(lang="en")
         link(rel="stylesheet" href="/scss/main.css")
         link(rel="stylesheet" href="../../scss/main.css")
         title Document
+
+
+        link(rel="stylesheet", href="../../scss/main.css")
     body
+        include ./about.pug
+
+    body 
+
+    body
+
         section.section__amir 
-            //-Hero section
+            
             div  
                 h1 Great coffee made simple 
                 p Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.
                 button Create your plan 
-        //- About section
+       
         section.section__amir--2 
             div 
                 img(src="https://s3-alpha-sig.figma.com/img/367a/815c/c8368061f71a199333ab2584c43c7e59?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MUOy-0tmSkvsY6GlI4WCMS-fRTRYFrlV72r2eHdjXzlLILg8TrHF~IbF~fe91d8rl0nN7wL7AffvQrKCLuw~wyCdCtc8DuHEqA8jTG92wofOEhuwF3R9Zwud1--lPBaIKsw11gfT8lLRhySx0aYri81~CvrDoIzlU6x0PjB276i7Oxi8rV6nSLVXtKXFilNMjz7y-xX5J0hMjYanWaY7Q-yTCEM8jjGl~q8i9B7pVKACQVRHu~u9gA~h-To~30pTu36djHbdRBwS1fKu5MthntoYBMm24AQteRXtgyxpcs1tXZVvUjfKLWh5anYftcdTaxP0cQphAl-dO9knpSR1Bg__" alt="Coffee paketi")
@@ -35,13 +44,13 @@ html(lang="en")
                 h1 Gran Epresso
                 p Light and flavorful blend with cocoa and black pepper for an intense experience.
 
-        //- sardor jonniki
+      
         section.coffe__select 
-            //-Coffee select menu
+          
             h1 Why choose us?
             p(style="text-align:center;") A large part of our role is choosing which particular coffees will be featured <br>in our range. This means working closely with the best coffee growers to give <br>you a more impactful experience on every level.
             .coffe.select--card 
-                //-coffee select cardlari
+            
                 each card in [1,1,1]
                     .card
                         img(src="/img/Shape.png" alt="Coffe doni")
@@ -52,9 +61,10 @@ html(lang="en")
             img(src="/img/Path 2.png" alt="Chiziq")
             .types 
                 each type in [1,1,1]
-                    //- Coffee Turlari
+                    
                     .type  
                         h1 01
                         h2 Pick your coffee
                         p Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.
             button Create your plan
+
